@@ -1,0 +1,11 @@
+{
+  "name": "nestjs-react",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/api/dist/main"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.4"
+  }
+}
