@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "node apps/api/dist/main"
+    "rm:modules": "find . -type d -name 'node_modules' -exec rm -rf {} +",
+    "rm:dist": "find . -type d -name 'dist' -exec rm -rf {} +",
+    "start": "node apps/api/dist/src/main"
   },
   "devDependencies": {
     "turbo": "^1.10.4"

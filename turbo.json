@@ -6,6 +6,7 @@
     },
     "build": {
       "dependsOn": ["^build"],
+      "env": ["DATABASE_URL", "VITE_BASE_URL", "VITE_COUNTER_ID"],
       "outputs": ["dist/**"]
     }
   }
